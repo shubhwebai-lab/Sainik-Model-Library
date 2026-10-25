@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/Sainik Model Library/Sainik Model Library Admin/SainikModelLibraryAdmin/gradle.properties",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/Sainik Model Library/Sainik Model Library Admin/SainikModelLibraryAdmin/settings.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 345,
+          "line": 17
+        },
+        "start": {
+          "column": 15,
+          "index": 345,
+          "line": 17
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/Sainik Model Library/Sainik Model Library Admin/SainikModelLibraryAdmin/settings.gradle.kts"
+}

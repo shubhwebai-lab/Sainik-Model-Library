@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        ऐप की मुख्य थीम।
+        Parent: Theme.AppCompat.NoActionBar
+        क्यों AppCompat? → क्योंकि MainActivity, AppCompatActivity पर आधारित होगी
+        (in-app language switching के लिए AppCompat ज़रूरी है)।
+        NoActionBar → क्योंकि हम Compose में अपना TopAppBar खुद बनाएँगे।
+    -->
+    <style name="Theme.SainikModelLibraryAdmin" parent="Theme.AppCompat.NoActionBar">
+
+        <!-- AppCompat primary / accent colors -->
+        <item name="colorPrimary">@color/sml_primary_red</item>
+        <item name="colorPrimaryDark">@color/sml_background</item>
+        <item name="colorAccent">@color/sml_primary_red</item>
+
+        <!-- Window background — हमारा गहरा बैकग्राउंड -->
+        <item name="android:windowBackground">@color/sml_background</item>
+
+        <!-- System bars — background के साथ मिलान -->
+        <item name="android:statusBarColor">@color/sml_background</item>
+        <item name="android:navigationBarColor">@color/sml_background</item>
+
+        <!-- Status bar icons को हल्का (white) रखने के लिए -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Text default colors -->
+        <item name="android:textColorPrimary">@color/sml_text_primary</item>
+        <item name="android:textColorSecondary">@color/sml_text_muted</item>
+
+    </style>
+
+</resources>

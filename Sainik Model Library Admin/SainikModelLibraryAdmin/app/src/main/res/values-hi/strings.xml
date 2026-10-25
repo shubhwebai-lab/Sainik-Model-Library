@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== App और सामान्य ===== -->
+    <string name="app_name">Sainik Model Library Admin</string>
+    <string name="demo_data_label">डेमो डेटा</string>
+    <string name="demo_only_notice">यह स्क्रीन केवल प्रदर्शन के लिए डेटा का उपयोग करती है। कोई वास्तविक रिकॉर्ड संग्रहीत या संशोधित नहीं किया जाता।</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error_state_title">कुछ गलत हो गया</string>
+    <string name="error_state_message">कृपया पुनः प्रयास करें।</string>
+    <string name="empty_state_title">अभी यहाँ कुछ नहीं है</string>
+    <string name="empty_state_message">आइटम उपलब्ध होने पर यहाँ दिखेंगे।</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="search_hint">खोजें</string>
+    <string name="save">सहेजें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="delete">हटाएँ</string>
+    <string name="close">बंद करें</string>
+    <string name="back">वापस</string>
+    <string name="version_label">संस्करण</string>
+    <string name="status_active">सक्रिय</string>
+    <string name="status_inactive">निष्क्रिय</string>
+    <string name="status_pending">लंबित</string>
+    <string name="status_approved">स्वीकृत</string>
+    <string name="status_rejected">अस्वीकृत</string>
+    <string name="view_all">सभी देखें</string>
+
+    <!-- ===== नेविगेशन ===== -->
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_students">छात्र</string>
+    <string name="nav_admins">एडमिन</string>
+    <string name="nav_admissions">प्रवेश आवेदन</string>
+    <string name="nav_notices">सूचनाएँ</string>
+    <string name="nav_ebooks">ई-पुस्तकें</string>
+    <string name="nav_attendance">उपस्थिति</string>
+    <string name="nav_devices">डिवाइस</string>
+    <string name="nav_website">वेबसाइट सामग्री</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+    <string name="nav_help_about">सहायता और परिचय</string>
+
+    <!-- ===== डैशबोर्ड ===== -->
+    <string name="dashboard_title">डैशबोर्ड</string>
+    <string name="dashboard_welcome">स्वागत है, एडमिन</string>
+    <string name="dashboard_welcome_subtitle">यहाँ आपकी लाइब्रेरी का संक्षिप्त विवरण है।</string>
+    <string name="dashboard_card_students">छात्र</string>
+    <string name="dashboard_card_pending_admissions">लंबित प्रवेश</string>
+    <string name="dashboard_card_notices">सूचनाएँ</string>
+    <string name="dashboard_card_attendance">आज की उपस्थिति</string>
+    <string name="dashboard_section_quick_actions">त्वरित क्रियाएँ</string>
+    <string name="dashboard_section_recent_activity">हाल की गतिविधि</string>
+
+    <!-- ===== छात्र ===== -->
+    <string name="students_title">छात्र</string>
+    <string name="students_subtitle">छात्र रिकॉर्ड प्रबंधित करें</string>
+    <string name="students_search">छात्र खोजें</string>
+    <string name="students_filter_all">सभी</string>
+    <string name="students_filter_active">सक्रिय</string>
+    <string name="students_filter_inactive">निष्क्रिय</string>
+    <string name="students_add_button">छात्र जोड़ें</string>
+    <string name="student_detail_title">छात्र विवरण</string>
+    <string name="student_name">नाम</string>
+    <string name="student_class">कक्षा</string>
+    <string name="student_roll">रोल नंबर</string>
+    <string name="student_phone">फ़ोन</string>
+    <string name="student_status">स्थिति</string>
+    <string name="student_added_on">जोड़ने की तिथि</string>
+
+    <!-- ===== एडमिन ===== -->
+    <string name="admins_title">एडमिन</string>
+    <string name="admins_subtitle">लाइब्रेरी प्रशासक प्रबंधित करें</string>
+    <string name="admins_add_button">एडमिन जोड़ें</string>
+    <string name="admin_name">नाम</string>
+    <string name="admin_email">ईमेल</string>
+    <string name="admin_role">भूमिका</string>
+    <string name="admin_status">स्थिति</string>
+    <string name="admin_role_super">सुपर एडमिन</string>
+    <string name="admin_role_manager">प्रबंधक</string>
+    <string name="admin_role_librarian">लाइब्रेरियन</string>
+    <string name="admin_add_demo_notice">यह फ़ॉर्म केवल UI प्रदर्शन है। कोई वास्तविक एडमिन खाता नहीं बनाया जाएगा।</string>
+
+    <!-- ===== प्रवेश आवेदन ===== -->
+    <string name="admissions_title">प्रवेश आवेदन</string>
+    <string name="admissions_subtitle">प्रवेश आवेदनों की समीक्षा और प्रबंधन करें</string>
+    <string name="admissions_filter_all">सभी</string>
+    <string name="admissions_filter_pending">लंबित</string>
+    <string name="admissions_filter_approved">स्वीकृत</string>
+    <string name="admissions_filter_rejected">अस्वीकृत</string>
+    <string name="admission_detail_title">आवेदन विवरण</string>
+    <string name="admission_applicant">आवेदक</string>
+    <string name="admission_class">आवेदित कक्षा</string>
+    <string name="admission_submitted_on">जमा करने की तिथि</string>
+    <string name="admission_status">स्थिति</string>
+    <string name="admission_approve">स्वीकृत करें</string>
+    <string name="admission_reject">अस्वीकृत करें</string>
+    <string name="admission_demo_notice">Version 1 में स्वीकृत और अस्वीकृत बटन केवल प्रदर्शन के लिए हैं। कोई आवेदन वास्तव में स्वीकृत, अस्वीकृत या सर्वर पर नहीं भेजा जाएगा।</string>
+
+    <!-- ===== सूचनाएँ ===== -->
+    <string name="notices_title">सूचनाएँ</string>
+    <string name="notices_subtitle">लाइब्रेरी सूचनाएँ बनाएँ और देखें</string>
+    <string name="notices_create_button">सूचना बनाएँ</string>
+    <string name="notice_title_label">शीर्षक</string>
+    <string name="notice_body_label">सूचना विवरण</string>
+    <string name="notice_publish_date">प्रकाशन तिथि</string>
+    <string name="notice_priority">प्राथमिकता</string>
+    <string name="notice_priority_normal">सामान्य</string>
+    <string name="notice_priority_high">उच्च</string>
+    <string name="notice_publish_action">प्रकाशित करें</string>
+    <string name="notice_save_draft">ड्राफ़्ट सहेजें</string>
+    <string name="notice_preview_title">पूर्वावलोकन</string>
+    <string name="notice_demo_notice">Version 1 में सहेजें और प्रकाशित करें क्रियाएँ केवल UI हैं। कोई सूचना वास्तव में सहेजी या प्रकाशित नहीं की जाएगी।</string>
+
+    <!-- ===== ई-पुस्तकें ===== -->
+    <string name="ebooks_title">ई-पुस्तकें</string>
+    <string name="ebooks_subtitle">डिजिटल लाइब्रेरी पुस्तकें प्रबंधित करें</string>
+    <string name="ebooks_add_button">ई-पुस्तक जोड़ें</string>
+    <string name="ebook_name">शीर्षक</string>
+    <string name="ebook_size">आकार</string>
+    <string name="ebook_uploaded_on">अपलोड की तिथि</string>
+    <string name="ebook_upload_placeholder">PDF अपलोड करें</string>
+    <string name="ebook_remove">हटाएँ</string>
+    <string name="ebook_demo_notice">वास्तविक फ़ाइल अपलोड, संग्रहण और हटाने के लिए बैकएंड सेवा आवश्यक है। यह Version 1 इंटरफ़ेस कोई फ़ाइल अपलोड या हटाता नहीं है।</string>
+
+    <!-- ===== उपस्थिति ===== -->
+    <string name="attendance_title">उपस्थिति</string>
+    <string name="attendance_subtitle">आज की उपस्थिति का अवलोकन</string>
+    <string name="attendance_today_summary">आज का सारांश</string>
+    <string name="attendance_present">उपस्थित</string>
+    <string name="attendance_absent">अनुपस्थित</string>
+    <string name="attendance_late">देर से</string>
+    <string name="attendance_check_in">चेक-इन</string>
+    <string name="attendance_check_out">चेक-आउट</string>
+    <string name="attendance_records_title">आज के रिकॉर्ड</string>
+    <string name="attendance_qr_notice">Version 1 में QR-आधारित चेक-इन लागू नहीं है।</string>
+    <string name="attendance_gps_notice">Version 1 में GPS-आधारित उपस्थिति लागू नहीं है।</string>
+    <string name="attendance_demo_notice">उपस्थिति लाइव ट्रैक नहीं हो रही है। दिखाए गए रिकॉर्ड केवल प्रदर्शन डेटा हैं।</string>
+
+    <!-- ===== डिवाइस ===== -->
+    <string name="devices_title">डिवाइस</string>
+    <string name="devices_subtitle">पंजीकृत एडमिन डिवाइस प्रबंधित करें</string>
+    <string name="devices_registered_title">पंजीकृत डिवाइस</string>
+    <string name="devices_register_button">डिवाइस पंजीकृत करें</string>
+    <string name="devices_max_devices_policy">प्रत्येक एडमिन के लिए अधिकतम दो स्वीकृत डिवाइस की अनुमति है (नीति प्लेसहोल्डर)।</string>
+    <string name="device_name">डिवाइस का नाम</string>
+    <string name="device_model">मॉडल</string>
+    <string name="device_status">स्थिति</string>
+    <string name="device_last_active">अंतिम सक्रियता</string>
+    <string name="device_status_approved">स्वीकृत</string>
+    <string name="device_status_pending">लंबित</string>
+    <string name="device_status_blocked">अवरुद्ध</string>
+    <string name="devices_demo_notice">Version 1 में कोई डिवाइस वास्तव में पंजीकृत, सत्यापित, स्वीकृत या अवरुद्ध नहीं होता।</string>
+
+    <!-- ===== वेबसाइट सामग्री ===== -->
+    <string name="website_content_title">वेबसाइट सामग्री</string>
+    <string name="website_content_subtitle">वेबसाइट अनुभाग संपादित करें और पूर्वावलोकन करें</string>
+    <string name="website_content_edit_title">सामग्री संपादित करें</string>
+    <string name="website_content_preview_title">पूर्वावलोकन</string>
+    <string name="website_content_publish_action">वेबसाइट पर प्रकाशित करें</string>
+    <string name="website_content_save_draft">ड्राफ़्ट सहेजें</string>
+    <string name="website_section_home">होम</string>
+    <string name="website_section_about">परिचय</string>
+    <string name="website_section_contact">संपर्क</string>
+    <string name="website_section_gallery">गैलरी</string>
+    <string name="website_content_demo_notice">Version 1 में प्रकाशन किसी लाइव वेबसाइट से जुड़ा नहीं है। परिवर्तन केवल UI हैं और कहीं नहीं भेजे जाते।</string>
+
+    <!-- ===== सेटिंग्स ===== -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_subtitle">ऐप प्राथमिकताएँ और जानकारी</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_language_hindi">हिन्दी (Hindi)</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_theme">थीम</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_app_info">ऐप जानकारी</string>
+    <string name="settings_local_pref_notice">भाषा चयन इस सत्र पर लागू होता है। Version 1 में स्थायी प्राथमिकताएँ सहेजी नहीं जातीं।</string>
+
+    <!-- ===== प्रोफ़ाइल ===== -->
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="profile_subtitle">आपकी एडमिन प्रोफ़ाइल (डेमो)</string>
+    <string name="profile_name">नाम</string>
+    <string name="profile_role">भूमिका</string>
+    <string name="profile_email">ईमेल</string>
+    <string name="profile_phone">फ़ोन</string>
+    <string name="profile_demo_notice">यह प्रोफ़ाइल प्रदर्शन डेटा है। Version 1 में कोई प्रमाणीकरण या खाता प्रबंधन उपलब्ध नहीं है।</string>
+
+    <!-- ===== सहायता और परिचय ===== -->
+    <string name="help_about_title">सहायता और परिचय</string>
+    <string name="help_about_subtitle">इस ऐप के बारे में जानकारी</string>
+    <string name="help_about_version">ऐप संस्करण</string>
+    <string name="help_about_scope">Version 1 का दायरा</string>
+    <string name="help_about_scope_details">Version 1 Sainik Model Library Admin का केवल-UI पूर्वावलोकन है। कोई बैकएंड, डेटाबेस, प्रमाणीकरण या वास्तविक डेटा संचालन लागू नहीं है।</string>
+    <string name="help_about_contact">सहायता और समर्थन</string>
+    <string name="help_about_contact_details">सहायता के लिए, कृपया अपने लाइब्रेरी प्रशासक से संपर्क करें।</string>
+
+    <!-- ===== Content Descriptions ===== -->
+    <string name="cd_nav_menu">नेविगेशन मेनू खोलें</string>
+    <string name="cd_back">वापस जाएँ</string>
+    <string name="cd_search">खोजें</string>
+
+</resources>

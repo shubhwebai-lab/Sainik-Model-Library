@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== Sainik Model Library — Design Palette ===== -->
+    <!-- Primary brand red -->
+    <color name="sml_primary_red">#D72638</color>
+
+    <!-- Base background -->
+    <color name="sml_background">#101114</color>
+
+    <!-- Standard surface -->
+    <color name="sml_surface">#1B1D22</color>
+
+    <!-- Elevated / raised surface -->
+    <color name="sml_surface_elevated">#24272D</color>
+
+    <!-- Primary (main) text -->
+    <color name="sml_text_primary">#FFFFFF</color>
+
+    <!-- Muted (secondary) text -->
+    <color name="sml_text_muted">#9CA3AF</color>
+
+    <!-- Success state -->
+    <color name="sml_success">#31B779</color>
+
+    <!-- Warning state -->
+    <color name="sml_warning">#FFB547</color>
+
+    <!-- Transparent (for ripple overlays etc.) -->
+    <color name="sml_transparent">#00000000</color>
+
+</resources>

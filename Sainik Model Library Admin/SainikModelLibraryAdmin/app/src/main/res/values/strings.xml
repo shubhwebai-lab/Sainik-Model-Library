@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== App & Common ===== -->
+    <string name="app_name">Sainik Model Library Admin</string>
+    <string name="demo_data_label">Demo data</string>
+    <string name="demo_only_notice">This screen uses demonstration-only data. No real records are stored or modified.</string>
+    <string name="loading">Loading…</string>
+    <string name="error_state_title">Something went wrong</string>
+    <string name="error_state_message">Please try again.</string>
+    <string name="empty_state_title">Nothing here yet</string>
+    <string name="empty_state_message">Items will appear here when available.</string>
+    <string name="retry">Retry</string>
+    <string name="search_hint">Search</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="version_label">Version</string>
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="view_all">View all</string>
+
+    <!-- ===== Navigation ===== -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_students">Students</string>
+    <string name="nav_admins">Admins</string>
+    <string name="nav_admissions">Admission Applications</string>
+    <string name="nav_notices">Notices</string>
+    <string name="nav_ebooks">E-books</string>
+    <string name="nav_attendance">Attendance</string>
+    <string name="nav_devices">Devices</string>
+    <string name="nav_website">Website Content</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_help_about">Help &amp; About</string>
+
+    <!-- ===== Dashboard ===== -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_welcome">Welcome, Admin</string>
+    <string name="dashboard_welcome_subtitle">Here is a quick overview of your library.</string>
+    <string name="dashboard_card_students">Students</string>
+    <string name="dashboard_card_pending_admissions">Pending Admissions</string>
+    <string name="dashboard_card_notices">Notices</string>
+    <string name="dashboard_card_attendance">Attendance Today</string>
+    <string name="dashboard_section_quick_actions">Quick Actions</string>
+    <string name="dashboard_section_recent_activity">Recent Activity</string>
+
+    <!-- ===== Students ===== -->
+    <string name="students_title">Students</string>
+    <string name="students_subtitle">Manage student records</string>
+    <string name="students_search">Search students</string>
+    <string name="students_filter_all">All</string>
+    <string name="students_filter_active">Active</string>
+    <string name="students_filter_inactive">Inactive</string>
+    <string name="students_add_button">Add Student</string>
+    <string name="student_detail_title">Student Details</string>
+    <string name="student_name">Name</string>
+    <string name="student_class">Class</string>
+    <string name="student_roll">Roll Number</string>
+    <string name="student_phone">Phone</string>
+    <string name="student_status">Status</string>
+    <string name="student_added_on">Added On</string>
+
+    <!-- ===== Admins ===== -->
+    <string name="admins_title">Admins</string>
+    <string name="admins_subtitle">Manage library administrators</string>
+    <string name="admins_add_button">Add Admin</string>
+    <string name="admin_name">Name</string>
+    <string name="admin_email">Email</string>
+    <string name="admin_role">Role</string>
+    <string name="admin_status">Status</string>
+    <string name="admin_role_super">Super Admin</string>
+    <string name="admin_role_manager">Manager</string>
+    <string name="admin_role_librarian">Librarian</string>
+    <string name="admin_add_demo_notice">This form is a UI demonstration only. No real admin account will be created.</string>
+
+    <!-- ===== Admissions ===== -->
+    <string name="admissions_title">Admission Applications</string>
+    <string name="admissions_subtitle">Review and manage admission applications</string>
+    <string name="admissions_filter_all">All</string>
+    <string name="admissions_filter_pending">Pending</string>
+    <string name="admissions_filter_approved">Approved</string>
+    <string name="admissions_filter_rejected">Rejected</string>
+    <string name="admission_detail_title">Application Details</string>
+    <string name="admission_applicant">Applicant</string>
+    <string name="admission_class">Applied Class</string>
+    <string name="admission_submitted_on">Submitted On</string>
+    <string name="admission_status">Status</string>
+    <string name="admission_approve">Approve</string>
+    <string name="admission_reject">Reject</string>
+    <string name="admission_demo_notice">Approve and Reject buttons are demonstration-only in Version 1. No application will be approved, rejected, or sent to a server.</string>
+
+    <!-- ===== Notices ===== -->
+    <string name="notices_title">Notices</string>
+    <string name="notices_subtitle">Create and review library notices</string>
+    <string name="notices_create_button">Create Notice</string>
+    <string name="notice_title_label">Title</string>
+    <string name="notice_body_label">Notice Body</string>
+    <string name="notice_publish_date">Publish Date</string>
+    <string name="notice_priority">Priority</string>
+    <string name="notice_priority_normal">Normal</string>
+    <string name="notice_priority_high">High</string>
+    <string name="notice_publish_action">Publish</string>
+    <string name="notice_save_draft">Save Draft</string>
+    <string name="notice_preview_title">Preview</string>
+    <string name="notice_demo_notice">Save and Publish actions are UI-only in Version 1. No notice will actually be saved or published.</string>
+
+    <!-- ===== E-books ===== -->
+    <string name="ebooks_title">E-books</string>
+    <string name="ebooks_subtitle">Manage digital library books</string>
+    <string name="ebooks_add_button">Add E-book</string>
+    <string name="ebook_name">Title</string>
+    <string name="ebook_size">Size</string>
+    <string name="ebook_uploaded_on">Uploaded On</string>
+    <string name="ebook_upload_placeholder">Upload PDF</string>
+    <string name="ebook_remove">Remove</string>
+    <string name="ebook_demo_notice">Actual file upload, storage, and deletion require a backend service. This Version 1 interface does not upload or delete any file.</string>
+
+    <!-- ===== Attendance ===== -->
+    <string name="attendance_title">Attendance</string>
+    <string name="attendance_subtitle">Today\'s attendance overview</string>
+    <string name="attendance_today_summary">Today\'s Summary</string>
+    <string name="attendance_present">Present</string>
+    <string name="attendance_absent">Absent</string>
+    <string name="attendance_late">Late</string>
+    <string name="attendance_check_in">Check-in</string>
+    <string name="attendance_check_out">Check-out</string>
+    <string name="attendance_records_title">Today\'s Records</string>
+    <string name="attendance_qr_notice">QR-based check-in is not implemented in Version 1.</string>
+    <string name="attendance_gps_notice">GPS-based attendance is not implemented in Version 1.</string>
+    <string name="attendance_demo_notice">Attendance is not tracked live. The records shown are demonstration data only.</string>
+
+    <!-- ===== Devices ===== -->
+    <string name="devices_title">Devices</string>
+    <string name="devices_subtitle">Manage registered admin devices</string>
+    <string name="devices_registered_title">Registered Devices</string>
+    <string name="devices_register_button">Register Device</string>
+    <string name="devices_max_devices_policy">A maximum of two approved devices is allowed per admin (policy placeholder).</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_model">Model</string>
+    <string name="device_status">Status</string>
+    <string name="device_last_active">Last Active</string>
+    <string name="device_status_approved">Approved</string>
+    <string name="device_status_pending">Pending</string>
+    <string name="device_status_blocked">Blocked</string>
+    <string name="devices_demo_notice">No devices are really registered, verified, approved, or blocked in Version 1.</string>
+
+    <!-- ===== Website Content ===== -->
+    <string name="website_content_title">Website Content</string>
+    <string name="website_content_subtitle">Edit and preview website sections</string>
+    <string name="website_content_edit_title">Edit Content</string>
+    <string name="website_content_preview_title">Preview</string>
+    <string name="website_content_publish_action">Publish to Website</string>
+    <string name="website_content_save_draft">Save Draft</string>
+    <string name="website_section_home">Home</string>
+    <string name="website_section_about">About</string>
+    <string name="website_section_contact">Contact</string>
+    <string name="website_section_gallery">Gallery</string>
+    <string name="website_content_demo_notice">Publishing is not connected to any live website in Version 1. Changes are UI-only and are not sent anywhere.</string>
+
+    <!-- ===== Settings ===== -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">App preferences and information</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_hindi">हिन्दी (Hindi)</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_app_info">App Information</string>
+    <string name="settings_local_pref_notice">Language selection is applied to this session. Persistent preferences are not saved in Version 1.</string>
+
+    <!-- ===== Profile ===== -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_subtitle">Your admin profile (demo)</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_role">Role</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Phone</string>
+    <string name="profile_demo_notice">This profile is demonstration data. No authentication or account management is available in Version 1.</string>
+
+    <!-- ===== Help & About ===== -->
+    <string name="help_about_title">Help &amp; About</string>
+    <string name="help_about_subtitle">Information about this app</string>
+    <string name="help_about_version">App Version</string>
+    <string name="help_about_scope">Version 1 Scope</string>
+    <string name="help_about_scope_details">Version 1 is a UI-only preview of Sainik Model Library Admin. No backend, database, authentication, or real data operations are implemented.</string>
+    <string name="help_about_contact">Help &amp; Support</string>
+    <string name="help_about_contact_details">For support, please contact your library administrator.</string>
+
+    <!-- ===== Content Descriptions ===== -->
+    <string name="cd_nav_menu">Open navigation menu</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_search">Search</string>
+
+</resources>
